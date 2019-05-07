@@ -1,0 +1,79 @@
+#jogoArea
+{
+    border: 6px solid black;
+    width: 310px;
+    height: 310px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#fileira1 , #fileira2, #fileira3
+{
+    height: 100px;
+}
+
+#area1, #area4, #area7
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#area2, #area5, #area8
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#area3, #area6, #area9
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
+#area7, #area8, #area9
+{
+    border-top: 1px solid black;
+    border-bottom: none;
+}
+
+#area4, #area5, #area6
+{
+    border-top: 1px solid black;
+}
+
+.btnXO
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.0;   
+}
+
+.imgXO
+{
+    height: 100%;
+    width: 100%;  
+}
+
+#divNovoJogo{
+    width: 310px;
+    margin: 10px auto;
+}
+
+#divNovoJogo button
+{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid black;
+}

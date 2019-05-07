@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <script src="velhaScript.js"></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div id="jogoArea">
+        <div id="fileira1">
+            <div id="area1"><button class="btnXO" onclick="mostrarXO(0,1)"></button></div>
+            <div id="area2"><button class="btnXO" onclick="mostrarXO(0,2)"></button></div>
+            <div id="area3"><button class="btnXO" onclick="mostrarXO(0,3)"></button></div>
+        </div>
+        <div id="fileira2" >
+            <div id="area4"><button class="btnXO" onclick="mostrarXO(0,4)"></button></div>
+            <div id="area5" ><button class="btnXO" onclick="mostrarXO(0,5)"></button></div>
+            <div id="area6"><button class="btnXO" onclick="mostrarXO(0,6)"></button></div>
+        </div>
+        <div id="fileira3">
+            <div id="area7"><button class="btnXO" onclick="mostrarXO(0,7)"></button></div>
+            <div id="area8"><button class="btnXO" onclick="mostrarXO(0,8)"></button></div>
+            <div id="area9"><button class="btnXO" onclick="mostrarXO(0,9)"></button></div>
+        </div>
+    </div>
+    <div id ="divNovoJogo">
+        <button onclick="novoJogo()">Novo Jogo</button>
+    </div>
+</body>
+</html>
